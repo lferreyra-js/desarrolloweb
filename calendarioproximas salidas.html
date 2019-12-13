@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>PROXIMAS salidas</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+<script src="jquery.ui.datepicker-es.js"></script>
+<link rel= "stylesheet" href="blogav.css" type= "text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<body background="http://culturademontania.org.ar/Historia/cordoba_valle_los_lisos_9.jpg">
+<script>
+$(function () {
+$.datepicker.setDefaults($.datepicker.regional["es"]);
+$("#datepicker").datepicker({
+firstDay: 1
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("h6").click(function(){
+    $(this).hide();
+
+  });
+});
+</script>
+
+</head>
+
+<body>
+Fecha:
+
+<input type="text" id="datepicker" />
+<br>
+<br>
+<br>
+<br>
+
+
+<h6 class="alerta">Aqui podras encontar toda la informacion sobre nuestras proximas salidas! </h6>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<di class="boton">
+        <a href="file:///C:/Users/Usuario/Desktop/Desarrollo%20web/home.html" <button class="btn btn-primary ">Principal </button></a>
+</div>
+</body>
+</html>
